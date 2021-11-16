@@ -142,4 +142,7 @@ client.on("messageCreate", message => {
   if (message.content.toLowerCase().includes("princesse")) {
     message.channel.send("https://tenor.com/view/ai-hayasaka-together-blushing-anime-kaguya-sama-love-is-war-gif-17948041")
   }
+  if (message.content.toLowerCase().includes("koi")) {
+    message.channel.send("https://cdn.discordapp.com/attachments/371213680307732482/910199870109921400/5udurl.jpg");
+  }
 })
