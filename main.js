@@ -21,10 +21,7 @@ require('./src/events');
 
 const prefix = "-";
 
-client.login(client.config.app.token); //Discord
-
-    // Lancement du bot, avec le token spécifié client.login(process.env.TOKEN);
-/*client.login(process.env.TOKEN);*/
+client.login(process.env.TOKEN);
 
 client.on("messageCreate", message => {
    if (message.author.bot) return; // Si le message provient d'un bot, non analyse du message
