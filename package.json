@@ -1,0 +1,21 @@
+{
+  "name": "pepitox",
+  "main": "main.js",
+  "author": "Serveur des pépitos",
+  "version": "1.0",
+  "repository": "",
+  "description": "",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.3.1",
+    "ffmpeg-static": "^4.4.0",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
