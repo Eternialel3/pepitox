@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         px: '-',
-        playing: 'Trop de musiques me tuent'
+        playing: 'Genshin Impact'
     },
 
     opt: {
