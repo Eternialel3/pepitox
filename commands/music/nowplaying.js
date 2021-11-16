@@ -25,8 +25,9 @@ module.exports = {
         embed.setColor('RED');
         embed.setThumbnail(track.thumbnail);
         embed.setTitle(track.title);
+        embed.setURL(track.url);
         embed.setAuthor("Voici la musique qui joue actuellement :", client.user.displayAvatarURL({ size: 1024, dynamic: true }));    
-        embed.setDescription(`URL : ${track.url}\nVolume **${queue.volume}**%\nDurée **${trackDuration}**\nEtat du loop : **${methods[queue.repeatMode]}**\nDemandé par ${track.requestedBy}`);
+        embed.setDescription(`Volume **${queue.volume}**%\nEtat du loop : **${methods[queue.repeatMode]}**\nDemandé par ${track.requestedBy}`);
         embed.addField("Durée", `${progress} (**${timestamp.progress}**%)`);
         embed.setTimestamp();
         embed.setFooter('De rien pour la musique frérot', message.author.avatarURL({ dynamic: true }));

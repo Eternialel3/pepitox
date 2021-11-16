@@ -18,6 +18,7 @@ module.exports = (client, int) => {
             embed.setColor('RED');
             embed.setThumbnail(track.thumbnail);
             embed.setTitle(track.title);
+            embed.setURL(track.url);
             embed.setAuthor("Pépitox t'envoie un cadeau ! ;)", client.user.displayAvatarURL({ size: 1024, dynamic: true }));
             embed.setDescription(`URL : ${track.url}\nDurée **${trackDuration}**\nDemandé par ${track.requestedBy}`);
             embed.setTimestamp();
