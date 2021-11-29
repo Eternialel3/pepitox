@@ -99,9 +99,9 @@ client.on("messageCreate", message => {
    if (message.content.toLowerCase().includes("🔥")) {
       message.channel.send("Bouffe tes morts JJ")
    }
-   if (message.content.includes("?")) {
+   /*if (message.content.includes("?")) {
       message.channel.send("OUAIS MAIS C'EST PAS TOI QUI DÉCIDE")
-   }
+   }*/
    if (message.content === "test") {
       message.reply("mange tes morts")
    }
