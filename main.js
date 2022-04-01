@@ -132,8 +132,8 @@ client.on("messageCreate", message => {
     data.compteur+=1;
   }
 
-  if(message.content === prefix + "bonjour") {
-    message.channel.send("\"Bonjour\" a été envoyé " + data.compteur + "fois" );
+  if(message.content === prefix "Count" + "bonjour" + ")" ) {
+    message.channel.send("\"Bonjour\" a été envoyé " + data.compteur + " fois." );
   }
   
   if (message.content === "bite"){
