@@ -137,7 +137,7 @@ client.on("messageCreate", message => {
     message.channel.send("\"Bonjour\" a été envoyé " + data.c1 + " fois." );
   }
   
-    //ça m'as
+    //j'essai
   if(message.content.toLowerCase().includes("j'essai")){
     data.c2+=1;
   }
@@ -145,7 +145,7 @@ client.on("messageCreate", message => {
     message.channel.send("\"j'essai\" a été envoyé " + data.c2 + " fois." );
   }
     
-  //j'essai
+  //ça m'as
   if(message.content.toLowerCase().includes("ça m'as")){
     data.c3+=1;
   }
