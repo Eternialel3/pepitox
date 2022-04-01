@@ -133,7 +133,7 @@ client.on("messageCreate", message => {
    if(message.content.toLowerCase().includes("bonjour")){
     data.c1+=1;
   }
-  if(message.content === prefix "Count" + "bonjour" + ")" ) {
+  if(message.content === prefix + "Count(" + "bonjour" + ")" ) {
     message.channel.send("\"Bonjour\" a été envoyé " + data.c1 + " fois." );
   }
   
@@ -141,7 +141,7 @@ client.on("messageCreate", message => {
   if(message.content.toLowerCase().includes("j'essai")){
     data.c2+=1;
   }
-  if(message.content === prefix "Count" + "j'essai" + ")" ) {
+  if(message.content === prefix + "Count(" + "j'essai" + ")" ) {
     message.channel.send("\"j'essai\" a été envoyé " + data.c2 + " fois." );
   }
     
@@ -149,7 +149,7 @@ client.on("messageCreate", message => {
   if(message.content.toLowerCase().includes("ça m'as")){
     data.c3+=1;
   }
-  if(message.content === prefix "Count" + "ça m'as" + ")" ) {
+  if(message.content === prefix + "Count(" + "ça m'as" + ")" ) {
     message.channel.send("\"ça m'as\" a été envoyé " + data.c3 + " fois." );
   }
     
