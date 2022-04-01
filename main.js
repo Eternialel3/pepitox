@@ -21,6 +21,9 @@ require('./src/events');
 
 const prefix = "-";
 
+//charge les données du fichier data.json dans le sous-dossier data
+var data = require("./data/data.json");
+
 client.login(process.env.TOKEN);
 
 client.on("messageCreate", message => {
@@ -83,6 +86,7 @@ client.on("messageCreate", message => {
    if (message.content.toLowerCase().includes("pire perso")) {
       message.channel.send("https://tenor.com/view/eren-snk-aot-anime-gif-5108421") // fuck eren pire perso 
    }
+
   /* if (message.author.id === "693171137898872903") {
       message.channel.send("Arrête de parler JJ par pitié...")
    }*/
@@ -90,6 +94,7 @@ client.on("messageCreate", message => {
       message.delete();
       message.channel.send("Ose parler Thomas pour voir ^^")
    }*/
+
    if (message.content.toLowerCase().includes("force")) {
       message.channel.send("Force à toi frérot 🤣🤣🤣👊👊👊🔥🔥🔥")
    }
@@ -99,9 +104,11 @@ client.on("messageCreate", message => {
    if (message.content.toLowerCase().includes("🔥")) {
       message.channel.send("Bouffe tes morts JJ")
    }
+
    /*if (message.content.includes("?")) {
       message.channel.send("OUAIS MAIS C'EST PAS TOI QUI DÉCIDE")
    }*/
+
    if (message.content === "test") {
       message.reply("mange tes morts")
    }
@@ -121,12 +128,14 @@ client.on("messageCreate", message => {
       message.channel.send({embeds: [embedtest]})
    }
    
-  if (message.content.toLowerCase().includes("bonjour")) {
-    a=a+1
+   if(message.content.toLowerCase().includes("bonjour")){
+    data.compteur+=1;
   }
-  if (message.content === prefix + ("compteur")) {
-    message.channel.send(a)
+
+  if(message.content === prefix + "bonjour") {
+    message.channel.send("\"Bonjour\" a été envoyé " + data.compteur + "fois" );
   }
+  
   if (message.content === "bite"){
     message.react("🤣")
   }
