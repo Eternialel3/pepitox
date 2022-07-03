@@ -2,7 +2,7 @@ const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js');
 const Discord = require('discord.js');
 
-var x = 15;
+var x = 16;
 
 global.client = new Client({
     intents: [
@@ -31,35 +31,56 @@ client.on("messageCreate", message => {
    if (message.content.toLowerCase().includes("bruwah")) {
      message.channel.send("BRUUUUUUUUUUUUUUUUUUUUUUUUUUUUUH :rofl: :rofl: :rofl:")
    }
-   if (message.content.toLowerCase().includes("je sait")) {
+   if (message.content.toLowerCase().includes("je sait") || message.content.toLowerCase().includes("j'essai") || message.content.toLowerCase().includes("ça m'as")) {
      message.channel.send("Apprends à écrire JJ l'analphabète")
    }
    if (message.content.toLowerCase().includes("en effet")) {
-     message.channel.send("Réplique n°1 sur" + x + "de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°1 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("intéressant")) {
-     message.channel.send("Réplique n°2 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°2 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("intriguant")) {
-     message.channel.send("Réplique n°3 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°3 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("bruh")) {
-     message.channel.send("Réplique n°4 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°4 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("gringe")) {
-     message.channel.send("Réplique n°5 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°5 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("ish") && !message.content.toLowerCase().includes("ish ish")) {
-     message.channel.send("Réplique n°6 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°6 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("oula")) {
-     message.channel.send("Réplique n°7 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°7 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("oof")) {
-     message.channel.send("Réplique n°8 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°8 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("okk")) {
-     message.channel.send("Réplique n°9 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°9 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("banger")) {
+     message.channel.send("Réplique n°10 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("l de lazak")) {
+     message.channel.send("Réplique n°11 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("tbate")) {
+     message.channel.send("Réplique n°12 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("ryujin")) {
+     message.channel.send("Réplique n°13 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("flop")) {
+     message.channel.send("Réplique n°14 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("marco el gato")) {
+     message.channel.send("Réplique n°15 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("euh ouish")) {
+     message.channel.send("Réplique n°16 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("tg")) {
      message.channel.send("Cet utilisateur très beau et très intelligent, cet être parfait et rempli de lumières vous demande de fermer votre énorme gosier de gros porc. :)")
