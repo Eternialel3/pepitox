@@ -2,6 +2,8 @@ const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js');
 const Discord = require('discord.js');
 
+var x = 15;
+
 global.client = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
@@ -33,7 +35,7 @@ client.on("messageCreate", message => {
      message.channel.send("Apprends à écrire JJ l'analphabète")
    }
    if (message.content.toLowerCase().includes("en effet")) {
-     message.channel.send("Réplique n°1 sur 9 de JJ utilisée, essayez-en une nouvelle.")
+     message.channel.send("Réplique n°1 sur" + x + "de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("intéressant")) {
      message.channel.send("Réplique n°2 sur 9 de JJ utilisée, essayez-en une nouvelle.")
