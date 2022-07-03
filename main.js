@@ -49,7 +49,7 @@ client.on("messageCreate", message => {
    if (message.content.toLowerCase().includes("gringe")) {
      message.channel.send("Réplique n°5 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
-   if (message.content.toLowerCase().includes("ish") && !message.content.toLowerCase().includes("ish ish")) {
+   if (message.content.toLowerCase().includes("ish") && !message.content.toLowerCase().includes("ish ish") && !message.content.toLowerCase().includes("euh ouish")) {
      message.channel.send("Réplique n°6 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("oula")) {
@@ -79,7 +79,7 @@ client.on("messageCreate", message => {
     if (message.content.toLowerCase().includes("marco el gato")) {
      message.channel.send("Réplique n°15 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
-    if (message.content.toLowerCase().includes("euh ouish") && !message.content.toLowerCase().includes("ish")) {
+    if (message.content.toLowerCase().includes("euh ouish") {
      message.channel.send("Réplique n°16 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("tg")) {
