@@ -79,7 +79,7 @@ client.on("messageCreate", message => {
     if (message.content.toLowerCase().includes("marco el gato")) {
      message.channel.send("Réplique n°15 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
-    if (message.content.toLowerCase().includes("euh ouish")) {
+    if (message.content.toLowerCase().includes("euh ouish") && !message.content.toLowerCase().includes("ish")) {
      message.channel.send("Réplique n°16 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
    if (message.content.toLowerCase().includes("tg")) {
