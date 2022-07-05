@@ -23,6 +23,9 @@ require('./src/events');
 
 const prefix = "-";
 
+//charge les données du fichier data.json dans le sous-dossier data
+var data = require("./data/data.json");
+
 client.login(process.env.TOKEN);
 
 client.on("messageCreate", message => {
