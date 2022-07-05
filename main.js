@@ -100,6 +100,9 @@ client.on("messageCreate", message => {
     if (message.content.toLowerCase().includes("wolfy")) {
      message.channel.send("En fait la tradition c'est de pas me tuer premier tour mais svp le faites pas :((. Au fait je suis en live sur twitch.tv/akatsukinoanime. ^^")
    }
+    if (message.content.toLowerCase().includes("zelda")) {
+     message.channel.send("Ouuii j'ai joué à sprite truck, aussi à skyland sword, aussi à zelda betweens world, mais alors je vous déconseille oracle of seasons c'est le pire jeu !! je le déteste pire jeu")
+   }
    if (message.content.toLowerCase().includes("tg")) {
      message.channel.send("Cet utilisateur très beau et très intelligent, cet être parfait et rempli de lumières vous demande de fermer votre énorme gosier de gros porc. :)")
    }
