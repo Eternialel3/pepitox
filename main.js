@@ -147,8 +147,12 @@ client.on("messageCreate", message => {
       message.channel.send("Bouffe tes morts JJ")
    }
     
-    if (message.content.toLowerCase().includes("nitro")) {
+   if (message.content.toLowerCase().includes("nitro")) {
       message.channel.send("Nitro me manque en vrai :pensive: :pensive: :pensive: :weary: :weary: :weary:")
+   }
+    
+   if (message.content.toLowerCase().includes("misérable porc") || message.content.toLowerCase().includes("miserable porc")) {
+      message.channel.send("C'est bon t'as fini de cracher ton putain de gros venin de haine tel un black mamba ?")
    }
     
    /*if (message.content.includes("?")) {
