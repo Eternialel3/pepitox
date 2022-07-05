@@ -146,6 +146,11 @@ client.on("messageCreate", message => {
    if (message.content.toLowerCase().includes("🔥")) {
       message.channel.send("Bouffe tes morts JJ")
    }
+    
+    if (message.content.toLowerCase().includes("nitro")) {
+      message.channel.send("Nitro me manque en vrai :pensive: :pensive: :pensive: :weary: :weary: :weary:")
+   }
+    
    /*if (message.content.includes("?")) {
       message.channel.send("OUAIS MAIS C'EST PAS TOI QUI DÉCIDE")
    }*/
