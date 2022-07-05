@@ -155,6 +155,10 @@ client.on("messageCreate", message => {
       message.channel.send("C'est bon t'as fini de cracher ton putain de gros venin de haine tel un black mamba ?")
    }
     
+   if (message.content.toLowerCase().includes("oui")) {
+      message.channel.send("https://cdn.discordapp.com/attachments/884188560612290663/993907676713066717/unknown.png")
+   }
+    
    /*if (message.content.includes("?")) {
       message.channel.send("OUAIS MAIS C'EST PAS TOI QUI DÉCIDE")
    }*/
