@@ -82,7 +82,7 @@ client.on("messageCreate", message => {
     if (message.content.toLowerCase().includes("euh ouish")) {
      message.channel.send("Réplique n°16 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
-    if (message.content.toLowerCase().includes("manon")) {
+    if (message.content.toLowerCase().includes("marion")) {
      message.channel.send("Salut Manon euuuuuh Marine comment ça va ?")
    }
    if (message.content.toLowerCase().includes("tg")) {
