@@ -128,7 +128,7 @@ client.on("messageCreate", message => {
       message.channel.send({embeds: [embedtest]})
    }
    
-    //compteurs : COPIE A PARTIR D'ICI CA C'EST LES COMPTEURS QUI FONCTIONNENT
+    //compteurs :
     //bonjour
    if(message.content.toLowerCase().includes("bonjour")){
     data.c1+=1;
@@ -155,8 +155,7 @@ client.on("messageCreate", message => {
       data.c3-=1;
     message.channel.send("\"ça m'as\" a été envoyé " + data.c3 + " fois." );
   }
-    
-    //FIN COPIE
+
     
   if (message.content === "bite"){
     message.react("🤣")
