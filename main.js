@@ -2,7 +2,7 @@ const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js');
 const Discord = require('discord.js');
 
-var x = 16;
+var x = 17;
 
 global.client = new Client({
     intents: [
