@@ -98,7 +98,7 @@ client.on("messageCreate", message => {
      message.channel.send("Vous avez obtenu le bomgang.")
    }
     if (message.content.toLowerCase().includes("wolfy")) {
-     message.channel.send("En fait la tradition c'est de me tuer premier tour mais svp le faites pas :((. Au fait je suis en live sur twitch.tv/akatsukinoanime. ^^")
+     message.channel.send("En fait la tradition c'est de pas me tuer premier tour mais svp le faites pas :((. Au fait je suis en live sur twitch.tv/akatsukinoanime. ^^")
    }
    if (message.content.toLowerCase().includes("tg")) {
      message.channel.send("Cet utilisateur très beau et très intelligent, cet être parfait et rempli de lumières vous demande de fermer votre énorme gosier de gros porc. :)")
