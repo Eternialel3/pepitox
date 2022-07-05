@@ -82,8 +82,20 @@ client.on("messageCreate", message => {
     if (message.content.toLowerCase().includes("euh ouish")) {
      message.channel.send("Réplique n°16 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
    }
+    if (message.content.toLowerCase().includes("stylé")) {
+     message.channel.send("Réplique n°17 sur " + x + " de JJ utilisée, essayez-en une nouvelle.")
+   }
+    if (message.content.toLowerCase().includes("fun")) {
+     message.channel.send("J'aime beaucoup le jeu en fait mais là j'ai pas de fun en fait.")
+   }
+    if (message.content.toLowerCase().includes("délire")) {
+     message.channel.send("Non mais la scatophilie c'est pas mon délire en fait les gens veulent ce qu'ils veulent grand bien leur en fasse mais c'est pas mon délire en fait j'ai pas envie d'en parler en live en fait.")
+   }
     if (message.content.toLowerCase().includes("marion")) {
      message.channel.send("Salut Manon euuuuuh Marine comment ça va ?")
+   }
+    if (message.content.toLowerCase().includes("bomgang")) {
+     message.channel.send("Vous avez obtenu le bomgang.")
    }
    if (message.content.toLowerCase().includes("tg")) {
      message.channel.send("Cet utilisateur très beau et très intelligent, cet être parfait et rempli de lumières vous demande de fermer votre énorme gosier de gros porc. :)")
