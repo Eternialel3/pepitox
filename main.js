@@ -165,6 +165,35 @@ client.on("messageCreate", message => {
       message.channel.send({embeds: [embedtest]})
    }
    
+    //compteurs :
+    //bonjour
+   if(message.content.toLowerCase().includes("bonjour")){
+    data.c1+=1;
+  }
+  if(message.content === prefix + "Count(" + "bonjour" + ")" ) {
+      data.c1-=1;
+    message.channel.send("\"Bonjour\" a été envoyé " + data.c1 + " fois." );
+  }
+  
+    //j'essai
+  if(message.content.toLowerCase().includes("j'essai")){
+    data.c2+=1;
+  }
+  if(message.content === prefix + "Count(" + "j'essai" + ")" ) {
+      data.c2-=1;
+    message.channel.send("\"j'essai\" a été envoyé " + data.c2 + " fois." );
+  }
+    
+  //ça m'as
+  if(message.content.toLowerCase().includes("ça m'as")){
+    data.c3+=1;
+  }
+  if(message.content === prefix + "Count(" + "ça m'as" + ")" ) {
+      data.c3-=1;
+    message.channel.send("\"ça m'as\" a été envoyé " + data.c3 + " fois." );
+  }
+
+   
   if (message.content === "bite"){
     message.react("🤣")
   }
