@@ -181,7 +181,15 @@ client.on("messageCreate", message => {
       message.channel.send({embeds: [embedtest]})
    }
     if (message.author.id === "1477792289660211270") {
-      message.channel.send("Faites que ta mère meure de son alcoolisme, ton père des bombardements, et toi d’une crise cardiaque pendant ton sommeil")
+        var random = Math.getRandomInt(3);
+        if (random === "0") {
+            message.channel.send("Faites que ta mère meure de son alcoolisme, ton père des bombardements, et toi d’une crise cardiaque pendant ton sommeil")
+        } else if ( random === "1") {
+            message.channel.send("Ta sale pute de mère qui aurait dû avaler")
+        } else {
+            message.channel.send("Sam je t’en conjure mets fin à ta vie tu es un misérable drogué scammer indien sans avenir")
+        }
+      
    }
    
     //compteurs :
