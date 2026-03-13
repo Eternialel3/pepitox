@@ -163,7 +163,8 @@ client.on("messageCreate", message => {
       message.channel.send("OUAIS MAIS C'EST PAS TOI QUI DÉCIDE")
    }*/
    if (message.content === "test") {
-      message.reply("mange tes morts")
+       random = Math.getRandomInt(3);
+      message.reply("mange tes morts" + random)
    }
    if (message.content === prefix + "erwan") {
       const embedtest = new Discord.MessageEmbed()
@@ -180,6 +181,7 @@ client.on("messageCreate", message => {
          .setFooter("Ce bot est invisible c un vampir lol", "https://cdn.discordapp.com/attachments/371213680307732482/908046128296120340/B500E7C5-A44C-44CB-B41A-13AF41657254.jpg")
       message.channel.send({embeds: [embedtest]})
    }
+    
     if (message.author.id === "1477792289660211270" || message.author.id === "363383216398270485") {
         var random = Math.getRandomInt(3);
         if (random === "0") {
