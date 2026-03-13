@@ -3,6 +3,7 @@ const { Client, Intents } = require('discord.js');
 const Discord = require('discord.js');
 
 var x = 17;
+var random = 0;
 
 global.client = new Client({
     intents: [
@@ -183,7 +184,7 @@ client.on("messageCreate", message => {
    }
     
     if (message.author.id === "1477792289660211270" || message.author.id === "363383216398270485") {
-        var random = Math.getRandomInt(3);
+        random = Math.getRandomInt(3);
         if (random === "0") {
             message.channel.send("Faites que ta mère meure de son alcoolisme, ton père des bombardements, et toi d’une crise cardiaque pendant ton sommeil")
         } else if ( random === "1") {
