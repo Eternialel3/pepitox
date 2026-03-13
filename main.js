@@ -1,6 +1,7 @@
 const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js');
 const Discord = require('discord.js');
+const Math = require('math.js');
 
 var x = 17;
 var random = 0;
@@ -164,8 +165,8 @@ client.on("messageCreate", message => {
       message.channel.send("OUAIS MAIS C'EST PAS TOI QUI DÉCIDE")
    }*/
    if (message.content === "test") {
-       //random = Math.getRandomInt(3);
-      message.reply("mange tes morts" + random)
+       random = Math.getRandomInt(3);
+      message.reply("mange tes morts " + random)
    }
    if (message.content === prefix + "erwan") {
       const embedtest = new Discord.MessageEmbed()
